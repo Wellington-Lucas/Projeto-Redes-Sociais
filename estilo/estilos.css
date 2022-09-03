@@ -32,10 +32,9 @@ main {
 }
 
 #home {
-    overflow: scroll;
     position: relative;
     top:79px;
-    left: 21px;
+    left: 22px;
     width: 269px;
     height: 473px;
 }
