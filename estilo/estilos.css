@@ -18,9 +18,10 @@ body {
 
 @keyframes animacao {
     from {
+        transform: translateX(0);
     }
     to {
-        transform: scale(1.2);
+        transform: translateX(-10px);
     }
 
 }
