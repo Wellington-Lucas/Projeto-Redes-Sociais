@@ -16,6 +16,15 @@ body {
     background-size: cover;
 }
 
+@keyframes animacao {
+    from {
+    }
+    to {
+        transform: scale(1.2);
+    }
+
+}
+
 main {
     position: relative;
     height: 100vh;
@@ -50,14 +59,15 @@ main {
     border-radius: 50%;
     width: 50px;
     margin-top: 20px;
+   
+
     height: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.392);
 }
 
 #redes-sociais img:hover {
+    animation: animacao .8s infinite alternate;
     border: 2px solid rgba(255, 255, 255, 0.664);
-    transform: translate(-5px, -5px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.395);
     transition: transform .5s;
 }
 
